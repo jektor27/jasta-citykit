@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jasta-citykit"
+version = "0.1.0"
+description = "Static city catalogs built from open data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Jasta, Gusev" }]
+keywords = ["catalog", "static-site", "open-data", "seo"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+citykit = "citykit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["citykit*"]
