@@ -9,7 +9,10 @@ description = "Static city catalogs built from open data"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
-authors = [{ name = "Jasta, Gusev" }]
+authors = [
+  { name = "Jasta & Alexander Pryazhnikov, Studio J&A", email = "pryazhnikov24@yandex.ru" },
+]
+
 keywords = ["catalog", "static-site", "open-data", "seo"]
 classifiers = [
   "License :: OSI Approved :: MIT License",
